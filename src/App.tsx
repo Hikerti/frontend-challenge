@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   body { font-family: 'Roboto', sans-serif; }
 `;
 
-const basename = import.meta.env.DEV ? '/' : '/cat-pinterest';
+const basename = import.meta.env.DEV ? '/' : '/frontend-challenge';
 
 const App = () => (
     <BrowserRouter basename={basename}>
