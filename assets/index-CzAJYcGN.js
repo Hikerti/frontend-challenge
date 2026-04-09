@@ -76,4 +76,4 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
 `,hl=()=>{let{favorites:e,toggleFavorite:t}=io();return(0,F.jsxs)(ml,{children:[e.map(e=>(0,F.jsx)(ul,{cat:e,isFavorite:!0,onToggle:t},e.id)),e.length===0&&(0,F.jsx)(`div`,{style:{gridColumn:`1/-1`,textAlign:`center`},children:`Тут пока пусто :(`})]})},gl=Ga`
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Roboto', sans-serif; }
-`,_l=`/cat-pinterest`;(0,qn.createRoot)(document.getElementById(`root`)).render((0,F.jsx)(S.StrictMode,{children:(0,F.jsx)(()=>(0,F.jsxs)(En,{basename:_l,children:[(0,F.jsx)(gl,{}),(0,F.jsx)(Ya,{}),(0,F.jsxs)(Rt,{children:[(0,F.jsx)(It,{path:`/`,element:(0,F.jsx)(pl,{})}),(0,F.jsx)(It,{path:`/favorites`,element:(0,F.jsx)(hl,{})})]})]}),{})}));
+`,_l=`/frontend-challenge`;(0,qn.createRoot)(document.getElementById(`root`)).render((0,F.jsx)(S.StrictMode,{children:(0,F.jsx)(()=>(0,F.jsxs)(En,{basename:_l,children:[(0,F.jsx)(gl,{}),(0,F.jsx)(Ya,{}),(0,F.jsxs)(Rt,{children:[(0,F.jsx)(It,{path:`/`,element:(0,F.jsx)(pl,{})}),(0,F.jsx)(It,{path:`/favorites`,element:(0,F.jsx)(hl,{})})]})]}),{})}));
